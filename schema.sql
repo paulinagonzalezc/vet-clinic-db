@@ -1,3 +1,5 @@
+/* Database schema to keep the structure of entire database. */
+
 CREATE TABLE animals (
     ID INT PRIMARY KEY,
     name VARCHAR(100),
@@ -6,4 +8,3 @@ CREATE TABLE animals (
     neutered BOOLEAN,
     weight_kg DECIMAL
 );
-
