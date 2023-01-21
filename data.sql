@@ -62,7 +62,7 @@ VALUES ((SELECT id FROM vets WHERE name = 'Jack Harkness'),
 (SELECT id FROM species WHERE name = 'Digimon'));
 
 -- Visits data
-INSERT INTO visits(vets_id, animals_i, date_of_visit) 
+INSERT INTO visits(vets_id, animals_id, date_of_visit) 
 VALUES 
       ((SELECT id FROM vets WHERE name = 'William Tatcher'), (SELECT id FROM animals WHERE name = 'Agumon'), '2020-05-24'),
       ((SELECT id FROM vets WHERE name = 'Stephanie Mendez'), (SELECT id FROM animals WHERE name = 'Agumon'), '2020-07-22'),
