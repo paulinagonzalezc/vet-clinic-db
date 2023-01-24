@@ -2,6 +2,9 @@
   <h3><b>Vet Clinic Database</b></h3>
 </div>
 
+<img src="drawSQL-vet-clinic-schema.png" alt="schema" height="auto" />
+<br/>
+
 # 📗 Table of Contents
 
 - [📖 About the Project](#about-project)
