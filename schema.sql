@@ -7,7 +7,8 @@ CREATE TABLE animals (
     escape_attempts INT,
     neutered BOOLEAN,
     weight_kg DECIMAL,
-    species VARCHAR(100)
+    species_id INT,
+    owners_id INT
 );
 
 -- Alter table to add species
